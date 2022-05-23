@@ -34,7 +34,15 @@ ___TEMPLATE_PARAMETERS___
     "type": "TEXT",
     "name": "appId",
     "displayName": "Application ID",
-    "simpleValueType": true
+    "simpleValueType": true,
+    "valueValidators": [
+      {
+        "type": "REGEX",
+        "args": [
+          "^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$"
+        ]
+      }
+    ]
   }
 ]
 
@@ -180,6 +188,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 23.05.2022, 15:33:58
+Created on 23.05.2022, 16:07:56
 
 
