@@ -1,5 +1,5 @@
 homepage: "https://immerss.live"
 documentation: "https://www.immerss.live/docs/google-tag-manager-integrations#gtm-tracking-order-instruction"
 versions:
-  - sha: 5f02a788b90ae804f86b04aa24af8937e567874a
-    changeNotes: Initial release.
+  - sha: 591804424744d190fb7174292d46e1a72eb15d3c
+    changeNotes: First release Tracking Order.
